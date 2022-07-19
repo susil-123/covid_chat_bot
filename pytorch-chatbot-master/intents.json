@@ -1,0 +1,282 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "fine",
+      "patterns": ["how are you?", "whassup?", "how goin?"],
+      "responses": [
+        "great!! abt u?",
+        "goin fne abt u?",
+        "great, thanx for askin..!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "whats ur name?",
+        "who are u?",
+        "what is your name?"
+      ],
+      "responses": [
+        "hi, am sam",
+        "hello, i am sam",
+        "name's samm"
+      ]
+    },
+    {
+      "tag": "vaccine safety",
+      "patterns": [
+        "Why do some people get fever after taking COVID-19 vaccine?",
+        "would covid vaccine safe",
+        "covi shield safe?",
+        "covid vaccine"
+      ],
+      "responses": [
+        "This immune response is triggered by an antigen present in the vaccine. The blood flow in the body is increased to increase the circulation of the defensive immune cells in the body. This can lead to an increase in body temperature, which can consequently show up as fever.",
+        "Its completely safe. The blood flow in the body is increased to increase the circulation of the defensive immune cells in the body. This can lead to an increase in body temperature, which can consequently show up as fever."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "i had a bad feel",
+        "symptoms for covid",
+        "what if i have headache, is it corona?",
+        "what if i have diarrhoea, is it corona?",
+        "what if i have loss of taste or smell, is it corona?",
+        "what if i have sore throat, is it corona?"
+      ],
+      "responses": [
+        "Most common symptoms:-> fever, cough, tiredness, loss of taste or smell :: Less common symptoms:-> sore throat, headache, aches and pains, diarrhoea, a rash on skin.  If it is one the symptom mentioned here maybe best to consult a doctor",
+        "fever, cough, tiredness, loss of taste or smell. If it is one the symptom mentioned here maybe best to consult a doctor",
+        "sore throat, headache, aches and pains, diarrhoea, a rash on skin.  If it is one the symptom mentioned here maybe best to consult a doctor"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "what is covid-19?",
+        "what is corona virus?",
+        "what's covid 19?",
+        "Tell about covid"
+      ],
+      "responses": [
+        "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. COVID-19 can cause mild to severe respiratory illness, including death. "
+        
+      ]
+    },
+    {
+      "tag": "Symptoms 2",
+      "patterns": [
+        "I have mild feaver?",
+        "is fever a sign of this infection?",
+        "what symptoms should I watch for?",
+        "What are the symptoms and complications that COVID-19 can cause?",
+        "does covid-19 cause coughing?"
+      ],
+      "responses": [
+        
+        "Some of the primary symptoms to look for in a Covid 19 infected person are fever, dizziness, breathlessness, headache, dry cough ( eventually result in phlegm) and in a few cases loss in smell and taste. A few cases have also reported diarrhoea and fatigue."        
+      ]
+    },
+    {
+      "tag": "How_many_cases",
+      "patterns": [
+        "How many cases of covid 19 have been detected?",
+        "What is the stats on Corona Virus?",
+        "How many cases of Covid 19 has been detected?",
+        "What are the stats on COVID-19?"
+      ],
+      "responses": [
+          "(our region)Tamil Nadu :> infected: 35.2L and deaths: 38,030 (not realtime updated)"        
+      ]
+    },
+    {
+      "tag": "EmployeeShowsSymptoms",
+      "patterns": [
+        "what if someone i work with is sick?",
+        "do I need to quarantine the area where a sick person worked?",
+        "if an employee seems like they might have covid",
+        "how do I disinfect if a sick person showed up at work?",
+        "preventive measures"
+      ],
+      "responses": [
+        "If a guest at the accommodation develops symptoms of COVID-19, such as fever, dry cough or tiredness, staff at the accommodation establishment should contact the local health authority and follow their instructions. The sick person should be isolated in a room, alone, or at least 1 metre away from others, according to local health authorities’ instructions. No visitors should be permitted to enter the room occupied by the affected guest. Staff should also move people traveling with the sick person to a different room, if possible. "
+        
+      ]
+    },
+    {
+      "tag": "ProductsFromChina",
+      "patterns": [
+        "Products from China",
+        "should i stop buying products from China?",
+        "Am I at risk for COVID-19 from a package or products shipping from China?",
+        "are packages from China infected?",
+        "is it safe to buy Chinese products?"
+      ],
+      "responses": [
+        "Yes, of course, it is safe to buy things from China. If you’re worried about COVID-19, China is currently taking the most stringent measures to anti virus. Instead of worrying about vrius, you need to pay much attention to the following risks you may ignore when importing from China. "
+        
+      ]
+    },
+    {
+      "tag": "RiskToChildren",
+      "patterns": [
+        "do children catch covid-19?",
+        "Risk to children",
+        "Are children at higher risk of getting sick?",
+        "Are kids at increased risk of infection?",
+        "do children affected"
+      ],
+      "responses": [
+        "Most children do not develop symptoms when infected with the virus or they develop a very mild form of COVID-19. However, research has shown that children can become infected and can spread the virus to other children and adults while they are infectious. "
+        
+      ]
+    },
+    {
+      "tag": "NegativeTestResults",
+      "patterns": [
+        "Can you have corona virus and still test negative?",
+        "if you test negative can you still get COVID-19 later?",
+        "Negative test results",
+        "Does a negative test mean a person does not have COVID-19?",
+        "Can a person test negative and later test positive for COVID-19?"
+      ],
+      "responses": [
+        "A negative test result means that it is unlikely that you have COVID-19 at the time of testing. The test did not detect any antigens in your nasal swab sample, but it is possible that your test gave a false negative test result. "
+        
+      ]
+    },
+    {
+      "tag": "spreadviafood",
+      "patterns": [
+        "does the virus stick to packaged food?",
+        "does it spread on food packaging?",
+        "Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?",
+        "do I need to wash my groceries?"
+      ],
+      "responses": [
+        "There is currently no evidence that people can catch COVID-19 from food. The virus that causes COVID-19 can be killed at temperatures similar to that of other known viruses and bacteria found in food. "
+        
+      ]
+    },
+    {
+      "tag": "Testing",
+      "patterns": [
+        "Should I be tested for COVID-19?"
+        ,"Testing"
+      ],
+      "responses": [
+        "Rapid diagnostic test (RDT) of a sample of the respiratory tract of a person helps to detect the viral proteins (antigens) related to COVID-19 virus. This ensures a speedy and accurate diagnosis and its usage is CDC-approved."
+        
+      ]
+    },
+    {
+      "tag": "New_cov",
+      "patterns": [
+        "evolved covid",
+        "new form of covid",
+        "covid variants"
+      ],
+      "responses": [
+        "Variants of viruses occur when there is a change — or mutation — to the virus’s genes. /nRay says it is the nature of RNA viruses such as the coronavirus to evolve and change gradually. /n'Geographic separation tends to result in genetically distinct variants,' he says. /nMutations in viruses — including the coronavirus causing the COVID-19 pandemic — are /nneither new nor unexpected. Bollinger explains: 'All RNA viruses mutate over time, some more /nthan others. For example, flu viruses change often, which is why doctors recommend that you get a new flu vaccine every year.'"        
+      ]
+    },
+    {
+      "tag": "ReduceFamilyRisk",
+      "patterns": [
+        "lower my family's risk of getting sick",
+        "What should I have my family do to keep from getting sick?",
+        "Reduce family risk",
+        "What steps can my family take to reduce our risk of getting COVID-19?",
+        "how to prevent covid-19"
+      ],
+      "responses": [
+        "> Get vaccinated as soon as it’s your turn and follow local guidance on vaccination.\n > Keep physical distance of at least 1 metre from others, even if they don’t appear to be sick./n > Avoid crowds and close contact."
+        
+      ]
+    },
+    {
+      "tag": "EmployeeTestsPositive",
+      "patterns": [
+        "my employee came to work then got sick. now what do I do?",
+        "what if an employee tests positive after they have been reporting to work?",
+        "someone I worked with is now sick. do I need to disinfect the office?"
+        ,"employee's sick"
+      ],
+      "responses": [
+       
+        "If a guest at the accommodation develops symptoms of COVID-19, such as fever, dry cough or tiredness, staff at the accommodation establishment should contact the local health authority and follow their instructions. The sick person should be isolated in a room, alone, or at least 1 metre away from others, according to local health authorities/’ instructions. No visitors should be permitted to enter the room occupied by the affected guest. Staff should also move people traveling with the sick person to a different room, if possible. "
+        
+      ]
+    },
+    {
+      "tag": "HigherRiskPopulations",
+      "patterns": [
+        "Why do Boomers get sick?",
+        "I am over the age of 60.",
+        "Are older adults more likely to contract the disease?",
+        "Does  Corona Virus COVID-19 affect older people more?"
+      ],
+      "responses": [
+        "The COVID-19 pandemic is impacting the global population in drastic ways. In many countries, older people are facing the most threats and challenges at this time.",
+        "Although all age groups are at risk of contracting COVID-19, older people face significant risk of developing severe illness if they contract the disease due to physiological changes that come with ageing and potential underlying health conditions."        
+      ]
+    },
+    {
+      "tag": "when",
+      "patterns": [
+        "Where was COVID-19 first discovered?",
+        "covid orgins",
+        "when was covid first discovered?"
+      ],
+      "responses": [
+        "The first known infections from SARS-CoV-2 were discovered in Wuhan, China on 31 December 2019.",
+        "31 December 2019.",
+        "discovered by 31 December 2019."
+      ]
+    }
+  ]
+}
